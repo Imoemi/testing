@@ -1,6 +1,6 @@
 /** {outline: 2px solid green;}*/
 
-   body {
+  /* body {
     margin: 10px;
     background: rgb(158, 142, 0);
     font-family: Besley, serif;
@@ -37,7 +37,7 @@
   
   a {
     /* this removes the line under our links */
-    text-decoration: none;
+    /*text-decoration: none;
     color: rebeccapurple;
   }
   
@@ -46,7 +46,7 @@
   }
 
   /* Solution */
-  .header {
+ /* .header {
     display: flex;
     justify-content: space-between;
     padding: 8px;
@@ -63,4 +63,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
-  }
+  }*/
+
+  /*this is the second segment*/
+  
