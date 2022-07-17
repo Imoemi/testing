@@ -1,7 +1,7 @@
-* {outline: 2px solid green;
+/** {outline: 2px solid green; */
 }
 
-body {
+   body {
     margin: 10px;
     background: rgb(158, 142, 0);
     font-family: Besley, serif;
@@ -46,6 +46,7 @@ body {
     list-style-type: none;
   }
 
+  /* Solution */
   .header {
     display: flex;
     justify-content: space-between;
