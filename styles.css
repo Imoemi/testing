@@ -1,3 +1,4 @@
+* {outline: 2px solid green;}
 /** {outline: 2px solid green;}*/
 
   /* body {
@@ -66,16 +67,15 @@
   }*/
 
   /*this is the second segment*/
-  html, body {
+   html, body {
     height: 100%;
   }
   
   body {
     font-family: Roboto, sans-serif;
     margin: 0;
-    background: #aaa;
+    background: rgb(255, 191, 191);
     color: #333;
-    /* I'll give you this one for free */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +84,7 @@
   .modal {
     background: white;
     width: 480px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   }
   
@@ -130,4 +130,30 @@
     border: 1px solid #ddd;
     color: royalblue;
   }
+
+  /* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
   
