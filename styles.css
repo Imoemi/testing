@@ -66,7 +66,7 @@
     gap: 16px;
   }*/
 
-  /*this is the second segment*/
+  /*this is the second segment
    html, body {
     height: 100%;
   }
@@ -129,18 +129,18 @@
     background: white;
     border: 1px solid #ddd;
     color: royalblue;
-  }
+  }*/
 
   /* SOLUTION: */
 
-.modal {
+/*.modal {
   display: flex;
   gap: 16px;
   padding: 16px;
-}
+}*/
 
-.icon {
-  /* this keeps the icon from getting smashed by the text */
+/*.icon {
+  /* this keeps the icon from getting smashed by the text 
   flex-shrink: 0;
 }
 
@@ -154,6 +154,33 @@
 }
 
 .text {
+  margin-bottom: 16px;
+}*/
+
+/*this is the third segment*/
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
   margin-bottom: 16px;
 }
   
