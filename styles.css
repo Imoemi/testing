@@ -157,7 +157,7 @@
   margin-bottom: 16px;
 }*/
 
-/*this is the third segment*/
+/*this is the third segment
 body {
   height: 100vh;
   margin: 0;
@@ -187,7 +187,7 @@ input {
 }
   /* SOLUTION */
 
-body {
+/*body {
   display: flex;
   flex-direction: column;
 }
@@ -226,4 +226,4 @@ ul {
   margin: 0;
   padding: 0;
   gap: 16px
-}
+}*/
