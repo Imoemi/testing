@@ -163,7 +163,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  background-color: aquamarine;
+  background-color: rgb(0, 90, 117);
 }
 
 img {
@@ -204,7 +204,7 @@ button {
 }
 
 a {
-  color: #666;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -216,7 +216,7 @@ a {
 }
 
 .footer {
-  background: #eee;
+  background: rgb(32, 32, 32);
 }
 
 ul {
