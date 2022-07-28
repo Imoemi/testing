@@ -256,8 +256,11 @@ body {
   border-radius: 4px;
 }
 
+/*SOLUTION*/
 .container{
   display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
 }
 
 body{
@@ -268,9 +271,10 @@ body{
 .header{
   font-weight: 900;
   font-size: 32px;
-  padding-left: 16px;
+  /*padding-left: 16px;*/
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .body {
@@ -279,11 +283,14 @@ body{
 }
 ul{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a{
   color: #eee;
   font-size: 24px;
+  text-decoration: none;
 }
 
 .footer{
@@ -292,5 +299,14 @@ a{
   align-items: center;
 }
 .sidebar{
+  flex-shrink: 0;
   padding: 16px;
+}
+li{
+  margin-bottom: 16px;
+}
+.card {
+padding: 16px;
+margin: 16px;
+width: 250px;
 }
